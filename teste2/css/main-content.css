@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.main-content {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #eaeaea;
+    padding: 25px;
+    margin-top: 450px;
+}
+
+.main-content p {
+   padding: 0 200px 0 200px; 
+}
+
+
+@media (max-width: 768px) {
+
+    .main-content p {
+        padding: 0 50px 0 50px; 
+    }
+}

@@ -1,0 +1,58 @@
+.addic-infos{
+    background-color: #eaeaea;
+    text-align: center;
+    color: black;
+    border: 0;
+    font-size: 1.5em;
+    padding: 25px;
+    height: 180px;
+}
+
+.addic-infos h2 {
+    margin: 0;
+}
+
+.contact-area {
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.contact-area p {
+    font-size: 20px;
+}
+
+.contato1 {
+    display: block;
+    padding: 25px;
+    background-color: #2690d4;
+}
+
+.contato2 {
+    background-color: #333;
+    padding: 25px;
+    display: block;
+}
+
+.footer-content {
+    font-size: 30px;
+    color: aliceblue;
+    padding: 25px;
+    background-color: black;
+    margin: 0;
+    text-align: center;
+    display: flex;       /*também funciona com display:grid; grid-template-columns: 1fr 1 fr;*/
+    justify-content: space-around;
+    border: 0;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    
+    .contact-area p {
+        font-size: 15px;
+    }
+
+}
